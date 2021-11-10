@@ -21,7 +21,7 @@
     </ul>
 </div>
 
-
+ 
 <div *ngIf="mostrarFormulario && cursoObjetivo" class="container col-8">
     <h1>MODIFICAR "{{cursoObjetivo.nombre}}"</h1>
     <form [formGroup]="formularioMod" (ngSubmit)="modificarDatos()" novalidate>
